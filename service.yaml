@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: playground-service
+  name: iot42-service
 spec:
   selector:
-    app: playground
+    app: iot42
   ports:
     - port: 8888
       targetPort: 80
