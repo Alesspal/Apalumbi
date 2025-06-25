@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: playground
-          image: alesspal/iot42:v1
+          image: alesspal/iot42:v2
           ports:
             - containerPort: 80
