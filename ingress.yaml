@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: iot42-ingress
+spec:
+  rules:
+    - host: iot42
+      http:
+        paths:
+          - path: /argocd
+            pathType: Prefix
+            backend:
+              service:
+                name: iot42-service
+                port:
+                  number: 8888
