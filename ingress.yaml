@@ -5,10 +5,10 @@ metadata:
   namespace: dev
 spec:
   rules:
-    - host: iot42
+    - host: iot42.app
       http:
         paths:
-          - path: /app
+          - path: /
             pathType: Prefix
             backend:
               service:
