@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: iot42
-          image: alesspal/iot42:v2
+          image: alesspal/iot42:v1
           ports:
             - containerPort: 80
