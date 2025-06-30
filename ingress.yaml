@@ -5,7 +5,7 @@ metadata:
   namespace: dev
 spec:
   rules:
-    - host: iot42.app.test
+    - host: iot42.app
       http:
         paths:
           - path: /
